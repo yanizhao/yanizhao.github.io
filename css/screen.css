@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+/*coding all*/
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body {
+  font-family: 'Droid Serif', serif;
+  font-weight:400;
+  font-size:16px;
+  background-image: url("../img/backgroundplus.jpg");
+  background-size: 3000px 6000px;
+  min-width:450px;
+}
+
+a {
+  color:white;
+}
+a:visited {
+  color: rgb(152,172,97);
+}
+a[class="notwhite"] {
+  color:blue;
+}
+
+/*coding for resume*/
+header[id="contact"] {
+  display:inline-block;
+  width:600px;
+  padding: 10px;
+  position:relative;
+  bottom:5px;
+  left:140px;
+  padding: 0 40px;
+  margin-top:50px;
+}
+header,nav {
+  font-weight:700;
+  text-align: center;
+}
+
+/*coding for all*/
+h1 {
+  text-align: center;
+  padding-top:30px;
+}
+
+h1[class="hidden"] {
+  display:none;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+p, li {
+  line-height:1.5;
+}
+nav {
+  padding:10px;
+}
+
+/*coding for resume*/
+nav[id="table"] li {
+  display:inline;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/*coding for nav on the top*/
+.title {
+  color:yellow;
+}
+ul[class="web"] li {
+  list-style-type: none;
+  margin: 100px;
+  padding: 20px;
+  display:inline;
+  word-spacing: 5px;
+}
+
+ul[class="web"] {
+  padding-left: 0;
+}
+
+body[id="body"] {
+  height:650px;
+}
+/*coding for all*/
+div {
+  max-width:1300px;
+  margin:auto;
+  min-height:100%;
+  position:relative;
+}
+
+/*coding for resume*/
+#container {
+  max-width: 960px;
+  min-width: 450px;
+  margin: 0 auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 40px 10px 40px;
+}
+img {
+  border:solid 1px black;
+  float:left;
+}
+
+
+/*coding for about*/
+main[class="home"] {
+  margin-top:30px;
+  padding:10px;
+  padding-bottom:80px;
+}
+main[class="home"] p {
+  text-align:center;
+}
+.first {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size:20px;
+  letter-spacing: 2px;
+  margin-top:
+}
+.bigger {
+  font-size: 48px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 10px;
+
+}
+.far {
+  word-spacing: 5px;
+  color:white;
+font-family: 'Roboto', sans-serif;
+}
+.infor {
+  color:yellow;
+}
+.innercircle {
+color:white;
+font-weight:bold;
+width:50px;
+height:50px;
+border-radius:50%;
+font-size:20px;
+line-height:50px;
+text-align:center;
+background:rgba(255,255,255,0.4);
+margin-top:90px;
+}
+
+/*coding for projects*/
+.main{
+  margin:auto;
+  margin-top:100px;
+  padding:10px;
+  padding-bottom:60px;
+  text-align:center;
+  font-family: 'Varela Round', sans-serif;
+  font-size:20px;
+}
+
+
+
+/*coding for contact*/
+p[class="horizontal"] {
+  display:inline;
+  margin-right:80px;
+}
+p[class="horizontal"]:last-child {
+  margin-right:10px;
+}
+
+
+
+/*coding for resume*/
+#education, #internship-experience {
+  width: 450px;
+  display: inline-block;
+}
+#education {
+  float:left;
+}
+#internship-experience {
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+#academic-activities {
+  margin-top:40px;
+}
+
+#extracurricular-activities {
+  margin-bottom:40px;
+  margin-top:40px;
+}
+#extracurricular-activities h2{
+  margin-bottom:0;
+}
+
+#sectionfirst, #sectionsecond {
+  width:450px;
+  display: inline-block;
+}
+#sectionfirst {
+  margin-right:30px;
+  float:left;
+}
+#sectionsecond {
+  margin-left:30px;
+}
+
+#skills {
+  margin-bottom:40px;
+}
+#skills ul {
+  padding-left: 0;
+}
+#skills li {
+  display: inline-block;
+  padding: 10px;
+  background: #ddd;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+footer li {
+  display:inline;
+  margin-right: 10px;
+}
+
+/*coding for about*/
+section[id="footer"] {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+  text-align:center;
+}

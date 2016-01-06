@@ -1,0 +1,48 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+@page {
+  margin: 0.5in;
+}
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 125%;
+}
+img {
+display:none;
+}
+nav li {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+
+a[href^="http"], abbr {
+  font-size:100%;
+}
+
+footer li {
+  display:none;
+}
+footer p{
+  display:none;
+}
+
+#skills ul {
+  padding-left: 0;
+}
+#skills li {
+  display: inline-block;
+  margin-right: 10px;
+}

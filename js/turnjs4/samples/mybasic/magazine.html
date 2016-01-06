@@ -1,0 +1,105 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+<link rel="stylesheet" media="screen" href="css/mobile.css" />
+
+</head>
+<body class="turn">
+
+
+
+<div class="flipbook-viewport">
+	<p><a href="../../../../projects.html" class="magazineback">Back to Project</a><p>
+	<div class="container">
+		<div class="flipbook">
+			<div style="background-image:url(pages/m1.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m2.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m3.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m4.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m5.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m6.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m7.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m8.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m9.jpg)"  class="size"></div>
+			<div style="background-image:url(pages/m10.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m11.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m12.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m13.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m14.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m15.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m16.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m17.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m18.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m19.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m20.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m21.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m22.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m23.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m24.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m25.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m26.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m27.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m28.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m29.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m30.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m31.jpg)" class="size"></div>
+			<div style="background-image:url(pages/m32.jpg)" class="size"></div>
+
+		</div>
+	</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+function loadApp() {
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Width
+
+			width:922,
+
+			// Height
+
+			height:600,
+
+			// Elevation
+
+			elevation: 50,
+
+			// Enable gradients
+
+			gradients: true,
+
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['../../lib/turn.js'],
+	nope: ['../../lib/turn.html4.min.js'],
+	both: ['css/basic.css'],
+	complete: loadApp
+});
+
+</script>
+<script> //copyright turn.js Emmanuel Garcia</script>
+
+</body>
+</html>
