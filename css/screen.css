@@ -181,7 +181,7 @@ p[class="horizontal"]:last-child {
 
 
 /*coding for resume*/
-#education, #internship-experience {
+/*#education, #internship-experience {
   width: 450px;
   display: inline-block;
 }
@@ -191,7 +191,7 @@ p[class="horizontal"]:last-child {
 #internship-experience {
   padding-left: 30px;
   margin-left: 30px;
-}
+}*/
 
 #academic-activities {
   margin-top:40px;
